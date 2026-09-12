@@ -1,0 +1,18 @@
+`ifndef AXI4LITE_SEQUENCER_SV
+`define AXI4LITE_SEQUENCER_SV
+
+`include "uvm_macros.svh"
+import uvm_pkg::*;
+
+class axi4lite_sequencer extends uvm_sequencer #(axi4lite_seq_item);
+  `uvm_component_utils(axi4lite_sequencer)
+
+  function new(string name = "axi4lite_sequencer", uvm_component parent = null);
+    super.new(name, parent);
+  endfunction
+
+endclass
+
+`endif
+
+
