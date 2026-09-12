@@ -2,12 +2,7 @@
 
 ## Overview
 
-This project implements an AXI4-Lite master in SystemVerilog and
-verifies its functionality using a UVM-based verification environment.
-
-The verification environment includes constrained-random stimulus,
-functional coverage, SystemVerilog Assertions (SVA), monitoring,
-scoreboarding, and protocol-level checking.
+This project develops a SystemVerilog/UVM-based verification environment for an AXI4-Lite, including constrained-random stimulus, functional coverage, SystemVerilog assertions, monitoring, and scoreboard-based checking.
 
 ## RTL Design
 
